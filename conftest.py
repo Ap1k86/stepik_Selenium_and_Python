@@ -31,11 +31,11 @@ def browser(request):
     # browser = None
 
     # open browser.
-    if browser_name.lower() == "chrome":
+    if browser_name == "chrome":
         print("\nStart browser Chrome for test..!")
         options.add_experimental_option('prefs', {'intl.accept_languages': user_language})
         browser = webdriver.Chrome(options=options)
-    elif browser_name.lower() == "firefox":
+    elif browser_name == "firefox":
         print("\nStart browser FireFox for test..!")
         fp = webdriver.FirefoxProfile()
         fp.set_preference("intl.accept_languages", user_language)

@@ -8,7 +8,7 @@ class TestFinalLesson3:
 
     link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
 
-    def test_button_search(self, browser):
+    def test_add_to_cart_button_search(self, browser):
         # open site
         browser.get(self.link)
 

@@ -5,6 +5,7 @@ import math
 
 link = "http://suninjuly.github.io/find_link_text"
 
+
 try:
     browser = webdriver.Chrome()
     browser.get(link)

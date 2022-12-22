@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from time import sleep
 from calc import calc
 
+
 try:
     link = "http://suninjuly.github.io/redirect_accept.html"
     browser = webdriver.Chrome()

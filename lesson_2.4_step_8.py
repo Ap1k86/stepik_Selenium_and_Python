@@ -12,7 +12,8 @@ try:
 
     # find price.
     print("find price.")
-    WebDriverWait(browser, 15).until(es.text_to_be_present_in_element((By.ID, "price"), "100"))
+    WebDriverWait(browser, 5).until(
+        es.text_to_be_present_in_element((By.ID, "price"), "100"))
 
     # click button 1.
     print("click button 1.")

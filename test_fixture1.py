@@ -1,10 +1,10 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
+
 link = "http://selenium1py.pythonanywhere.com/"
-import termcolor
 
 
-class TestMainPage1():
+class TestMainPage1:
 
     @classmethod
     def setup_class(self):
@@ -25,7 +25,7 @@ class TestMainPage1():
         self.browser.find_element(By.CSS_SELECTOR, ".basket-mini .btn-group > a")
 
 
-class TestMainPage2():
+class TestMainPage2:
 
     def setup_method(self):
         print("2. start browser for test..")
